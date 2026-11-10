@@ -15,9 +15,9 @@
 ## Features
 
 - Prime number checks
-- Prime number checks for the smallest value greater than n
-- Prime number checks for the biggest value less than n
-- Counts how many primes are ≤ n
+- Prime number checks for the smallest value > n
+- Prime number checks for the biggest value < n
+- Prime number counts that are ≤ n
 
 ## Installation
 
