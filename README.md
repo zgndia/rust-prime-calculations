@@ -17,7 +17,8 @@
 - Prime number checks
 - Prime number checks for the smallest value > n
 - Prime number checks for the biggest value < n
-- Prime number counts that are ≤ n
+- Prime numbers and it's count that are ≤ n
+- Number checks that are only divisible by even numbers and 1 - called "even primes"
 
 ## Installation
 
