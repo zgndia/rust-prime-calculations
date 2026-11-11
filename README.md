@@ -1,4 +1,4 @@
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE) ![Version](https://img.shields.io/badge/version-1.0.0-green) ![Built with](https://img.shields.io/badge/built_with-Rust-orange)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE) ![Built with](https://img.shields.io/badge/built_with-Rust-orange)
 
 # rust-prime-calculations
 
