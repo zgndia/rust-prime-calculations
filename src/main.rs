@@ -112,6 +112,7 @@ fn is_even_prime(n: u32) -> bool {
     // An even number that can only be divided by 1 and other even numbers will be called "even primes"
 
     if n < 2 || n % 2 != 0 {
+        // n < 2 has to stay because 0 is an even number that can't be divisible by other even numbers
         return false;
     }
 
