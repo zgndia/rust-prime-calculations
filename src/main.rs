@@ -32,7 +32,7 @@ fn main() {
         print!("{n}, ");
     }
 
-    let numbers: [u32; 5] = [18, 29, 45, 77, 100];
+    let numbers: [u32; 8] = [18, 29, 45, 77, 100, 0, 1, 2];
 
     for n in numbers {
         println!(
@@ -111,7 +111,8 @@ fn prime_count(n: u32) -> (Vec<u32>, u32) {
 fn is_even_prime(n: u32) -> bool {
     // An even number that can only be divided by 1 and other even numbers will be called "even primes"
 
-    if n < 2 || n % 2 != 0 {
+    if n == 0 || n % 2 != 0 {
+        // n == 0 means 0 is a number that is divisible by every number
         return false;
     }
 
